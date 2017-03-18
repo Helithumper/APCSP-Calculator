@@ -1,0 +1,9 @@
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\bin\Debug\APCSP-Calculator.exe.config
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\bin\Debug\APCSP-Calculator.exe
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\bin\Debug\APCSP-Calculator.pdb
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\obj\Debug\APCSP-Calculator.csprojResolveAssemblyReference.cache
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\obj\Debug\APCSP_Calculator.Properties.Resources.resources
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\obj\Debug\APCSP-Calculator.csproj.GenerateResource.Cache
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\obj\Debug\APCSP-Calculator.exe
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\obj\Debug\APCSP-Calculator.pdb
+C:\Users\peyto\Documents\GitHubRepos\APCSP-Calculator\APCSP-Calculator\APCSP-Calculator\obj\Debug\APCSP_Calculator.CalculatorForm.resources
