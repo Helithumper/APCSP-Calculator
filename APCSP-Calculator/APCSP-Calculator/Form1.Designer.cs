@@ -38,7 +38,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.enterButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
             this.moduloButton = new System.Windows.Forms.Button();
             this.divideButton = new System.Windows.Forms.Button();
@@ -48,7 +47,8 @@
             this.piButton = new System.Windows.Forms.Button();
             this.graphingButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
-            this.debugText = new System.Windows.Forms.Label();
+            this.decimalButton = new System.Windows.Forms.Button();
+            this.enterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button7
@@ -78,7 +78,7 @@
             // button0
             // 
             this.button0.Font = new System.Drawing.Font("Eras Bold ITC", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button0.Location = new System.Drawing.Point(91, 417);
+            this.button0.Location = new System.Drawing.Point(58, 419);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(60, 60);
             this.button0.TabIndex = 2;
@@ -170,17 +170,6 @@
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // enterButton
-            // 
-            this.enterButton.Font = new System.Drawing.Font("Eras Medium ITC", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.enterButton.Location = new System.Drawing.Point(245, 417);
-            this.enterButton.Name = "enterButton";
-            this.enterButton.Size = new System.Drawing.Size(105, 74);
-            this.enterButton.TabIndex = 10;
-            this.enterButton.Text = "ENTER";
-            this.enterButton.UseVisualStyleBackColor = true;
-            this.enterButton.Click += new System.EventHandler(this.enterButton_Click);
             // 
             // addButton
             // 
@@ -281,22 +270,34 @@
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
-            // debugText
+            // decimalButton
             // 
-            this.debugText.AutoSize = true;
-            this.debugText.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.debugText.Location = new System.Drawing.Point(12, 482);
-            this.debugText.Name = "debugText";
-            this.debugText.Size = new System.Drawing.Size(245, 20);
-            this.debugText.TabIndex = 20;
-            this.debugText.Text = "PLACEHOLDERPLACEHOLDER";
+            this.decimalButton.Font = new System.Drawing.Font("Eras Bold ITC", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.decimalButton.Location = new System.Drawing.Point(124, 417);
+            this.decimalButton.Name = "decimalButton";
+            this.decimalButton.Size = new System.Drawing.Size(60, 60);
+            this.decimalButton.TabIndex = 21;
+            this.decimalButton.TabStop = false;
+            this.decimalButton.Text = ".";
+            this.decimalButton.UseVisualStyleBackColor = true;
+            // 
+            // enterButton
+            // 
+            this.enterButton.Font = new System.Drawing.Font("Eras Medium ITC", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enterButton.Location = new System.Drawing.Point(245, 417);
+            this.enterButton.Name = "enterButton";
+            this.enterButton.Size = new System.Drawing.Size(105, 62);
+            this.enterButton.TabIndex = 22;
+            this.enterButton.Text = "ENTER";
+            this.enterButton.UseVisualStyleBackColor = true;
             // 
             // CalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(362, 511);
-            this.Controls.Add(this.debugText);
+            this.Controls.Add(this.enterButton);
+            this.Controls.Add(this.decimalButton);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.graphingButton);
             this.Controls.Add(this.piButton);
@@ -306,7 +307,6 @@
             this.Controls.Add(this.divideButton);
             this.Controls.Add(this.moduloButton);
             this.Controls.Add(this.addButton);
-            this.Controls.Add(this.enterButton);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
@@ -336,7 +336,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button enterButton;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button moduloButton;
         private System.Windows.Forms.Button divideButton;
@@ -346,7 +345,8 @@
         private System.Windows.Forms.Button piButton;
         private System.Windows.Forms.Button graphingButton;
         private System.Windows.Forms.Button clearButton;
-        private System.Windows.Forms.Label debugText;
+        private System.Windows.Forms.Button decimalButton;
+        private System.Windows.Forms.Button enterButton;
     }
 }
 
